@@ -10,3 +10,5 @@
   * 启动Chrome  
     (1),普通用户启动   /usr/bin/google-chrome-stable  
     (2),root 用户启动  /usr/bin/google-chrome-stable --no-sandbox  
+    
+    -----------------------------------------
