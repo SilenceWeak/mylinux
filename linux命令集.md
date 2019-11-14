@@ -75,7 +75,10 @@
 -------------------------------
 ## 文件查看与合并
 * cat
-  * cat file1
-  * cat file2
-  * cat file1 >> file2
+  * cat text.c  
+      ![file1](https://img-blog.csdn.net/20151018153427009)  
+  * cat text.c >> text1.c  
+      ![file2](https://img-blog.csdn.net/20151018153828307)
   * cat -n file1 file2 > file3
+      ![file3](https://img-blog.csdn.net/20151018153638401)
+---------------------------------------------
