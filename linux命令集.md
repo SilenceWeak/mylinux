@@ -81,4 +81,29 @@
       ![file2](https://img-blog.csdn.net/20151018153828307)
   * cat -n file1 file2 > file3
       ![file3](https://img-blog.csdn.net/20151018153638401)
+
 ---------------------------------------------
+## 文件解压
+ * **zip**：unzip filename.zip  
+ * **tar.gz**: tar -**zxvf** filename.tar.gz  
+ * **tar.bz2**: tar - **jxvf**  filename.tar.bz2  
+ * **tar.xz**: tar -**Jxvf**  filename.tar.xz  
+ * **tar.Z** : tar -**Zxvf** filename.tar.Z  
+ * 事实上, 从1.15版本开始tar就可以自动识别压缩的格式,故不需人为区分压缩格式就能正确解压  
+     tar -xvf filename.tar.gz  
+     tar -xvf filename.tar.bz2  
+     tar -xvf filename.tar.xz  
+     tar -xvf filename.tar.Z  
+ 
+ ---------------------------------------------------------------
+ ## 文件压缩
+ * tar -zcvf filename.tar.gz Dirname
+ * tar -jcvf filename.tar.bz2 Dirname
+ * tar -Jcvf filename.tar.xz Dirname
+ * tar -Zcvf filename.tar.Z Dirname
+ * zip filename.zip Dirname
+ * rar filename.rar Dirname
+ 
+ ---------------------------------------------------------------------
+ ## 下载文件
+ 
